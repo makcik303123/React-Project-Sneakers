@@ -10,7 +10,8 @@ const Info = ({ image, title, description }) => {
       <h2>{title}</h2>
       <p>{description}</p>
       <button onClick={() => setCartOpened(false)} className="greenButton cu-p">
-        <img src="/img/arrow.svg" alt="arrow" /> Вернуться назад
+        <img src="/React-Project-Sneakers/img/arrow.svg" alt="arrow" />{" "}
+        Вернуться назад
       </button>
     </div>
   );
