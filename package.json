@@ -2,11 +2,14 @@
   "name": "create-react-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": " https://makcik303123.github.io/React-Project-Sneakers/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "gh-pages": "^5.0.0",
+    "git": "^0.1.5",
     "macro-css": "^1.0.5",
     "node-sass": "^7.0.3",
     "react": "^18.2.0",
@@ -18,7 +21,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build"
   },
   "browserslist": {
     "production": [
